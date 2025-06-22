@@ -17,6 +17,11 @@ Please check our [paper](https://arxiv.org/abs/2408.16553).
 }
 ```
 
+# Complete Architecture
+The complete architecture is shown as follows,
+
+![network](/teaser.png)
+
 # Requirements
 - Ubuntu 20.04 (18.04 or higher)
 - NVIDIA GPU
