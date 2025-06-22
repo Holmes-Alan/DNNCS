@@ -57,3 +57,12 @@ Before running this script, you may open it to change the root directory where y
 
 ## 4. Some downscaled results are available
 You can download the data from here: [Galveston](https://drive.google.com/file/d/1Pt6ejGfrsypD0k0vCwXg0TW_6tU2IEyH/view?usp=sharing), [Bahamas](https://drive.google.com/file/d/1p23RPrM9X8Wi8TqH8Z3x2TG2TD8DX3Xa/view?usp=sharing). 
+
+# Training
+After preparing the training data, you can now run the following script.
+
+```sh
+$ CUDA_VISIBLE_DEVICES=1 python main_MPI.py
+```
+
+The model parameter is stored under "ckpt" folder
