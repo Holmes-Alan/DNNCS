@@ -36,7 +36,7 @@ conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0  pytorch-cuda
 
 # Installation
 ```sh
-$ pip install -r requirements.txt
+$ pip install -r requirement.txt
 ```
 
 # Testing
