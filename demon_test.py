@@ -66,8 +66,8 @@ if __name__ == "__main__":
     # validation settings
     parser.add_argument('--eval', type=bool, default=True)
     parser.add_argument('--save_hr', type=bool, default=False)
-    parser.add_argument('--output_dir', type=str, default='/data/shallow_water/Pred_DNNCS')
-    parser.add_argument('--validate_data', type=str, default='/data/shallow_water/demo_data')
+    parser.add_argument('--output_dir', type=str, default='/Pred_DNNCS')
+    parser.add_argument('--validate_data', type=str, default='/demo_data')
     parser.add_argument("--threads", type=int, default=8, help="number of threads for data loader to use")
     parser.add_argument("--test_batchSize", type=int, default=1, help="testing batch size")
     
